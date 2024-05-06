@@ -1,0 +1,28 @@
+.paypro-navbar {
+  display: flex;
+  justify-content: center; /* Center items horizontally */
+  align-items: center; /* Center items vertically */
+}
+
+.navbar-buttons {
+  display: flex; /* Ensure the buttons themselves are displayed as a flex container */
+  justify-content: center; /* Center items horizontally within the flex container */
+}
+
+.navbar-button {
+  margin-left: 10px;
+}
+
+button {
+  background-color: #3A855D;
+  border: none;
+  color: white;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 20px;
+  border-radius: 25px;
+  width: 150px;
+  font-weight: bolder;
+}
